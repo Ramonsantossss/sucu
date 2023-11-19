@@ -13,7 +13,7 @@ interface RootLayoutProps {
 }
 
 export const metadata: Metadata = {
-  title: { default: 'Mangá Éon', template: '%s | MangaEon' },
+  title: { default: 'MangasTrevo™', template: '%s | MangasTrevo™' },
   description: 'Leitor de Mangás',
   icons: [
     { rel: 'apple-touch-icon', sizes: '180x180', url: '/apple-touch-icon.png' },
@@ -32,10 +32,10 @@ export const metadata: Metadata = {
   ],
   appleWebApp: {
     capable: true,
-    title: 'Mangá Éon',
+    title: ' MangasTrevo™',
     statusBarStyle: 'black-translucent',
   },
-  applicationName: 'Mangá Éon',
+  applicationName: 'MangasTrevo™',
   other: {
     'mobile-web-app-capable': 'yes',
   },
